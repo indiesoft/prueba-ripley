@@ -10,5 +10,5 @@ export const environment = {
     messagingSenderId: '521835118740',
     appId: '1:521835118740:web:ee860b87a45a65a1'
   },
-  baseUrlApi: 'http://167.71.122.40:8100'
+  baseUrlApi: 'http://104.248.220.164:8100'
 };
