@@ -3,7 +3,6 @@
 
 
 ## Despliegue
-* Descarga repositorio desde https://github.com/indiesoft/prueba-ripley
 * Ingresar a la raiz del repositorio, luego ejecutar los comandos:
    - docker-compose build
    - docker-compose up -d
