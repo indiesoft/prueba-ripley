@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="loader" *ngIf="isLoading" >
+    <img src="../../../assets/loading.gif" />
+  </div>
+  <div class="row pt-5 pb-5" *ngIf="!isLoading">
+    <div class="col-3 mt-3" *ngFor="let prod of products">
+      <img [src]="prod.fullImage" class="w-100" />
+      <strong class="clearfix">{{prod.attributes[0].value}}</strong>
+      <div class="clearfix" style="min-height: 50px;"><small>{{prod.name}}</small></div>
+      <h4 class="text-danger">{{prod.prices.formattedListPrice}}</h4>
+    </div>
+  </div>
+</div>

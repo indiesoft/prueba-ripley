@@ -1,0 +1,25 @@
+<div class="container">
+  <div class="loader" *ngIf="isLoading">
+    <img src="../../../assets/loading.gif" />
+  </div>
+  <div class="row" *ngIf="!isLoading">
+    <div class="col-md-6 offset-md-3 pt-5">
+      <h4 class="mt-5">Login</h4>
+      <form [formGroup]="formLogin">
+        <div class="alert alert-danger" role="alert" *ngIf="status === 'ERR'">
+          {{errMessage}}
+        </div>
+        <input formControlName="email" type="email" placeholder="Correo Electrónico" class="form-control mt-3">
+        <input formControlName="password" type="password" placeholder="Contraseña" class="form-control mt-2">
+        <div class="row mt-2">
+          <div class="col-6">
+            <button class="btn btn-primary mt-3" [disabled]="!formLogin.valid" (click)="submit()">Ingresar</button>
+          </div>
+          <div class="col-6 text-right">
+            <button class="btn btn-link pull-rigth" [routerLink]="['/register']">Regístrate</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

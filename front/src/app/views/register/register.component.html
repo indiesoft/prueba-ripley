@@ -1,0 +1,21 @@
+<div class="container">
+  <div class="loader" *ngIf="isLoading">
+    <img src="../../../assets/loading.gif" />
+  </div>
+  <div class="row" *ngIf="!isLoading">
+    <div class="col-md-6 offset-md-3 pt-5">
+      <h4 class="mt-5">Registrate</h4>
+      <form [formGroup]="formRegister">
+        <div class="alert alert-success" role="alert" *ngIf="status === 'OK'">
+          Usuario registrado con éxito, <a [routerLink]="['/login']">ir al login</a>
+        </div>
+        <div class="alert alert-danger" role="alert" *ngIf="status === 'ERR'">
+          {{errMessage}}
+        </div>
+        <input formControlName="email" type="email" placeholder="Correo Electrónico" class="form-control mt-3">
+        <input formControlName="password" type="password" placeholder="Contraseña" class="form-control mt-2">
+        <button class="btn btn-primary mt-3" [disabled]="!formRegister.valid" (click)="submit()">Ingresar</button>
+      </form>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,41 @@
+version: '3'
+
+services:
+  
+  redis:
+    container_name: redis
+    image: redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - ./data/redis:/data
+    entrypoint: redis-server --appendonly yes
+    restart: always
+    
+  api:
+    build: ./api
+    hostname: api
+    container_name: api
+    environment:
+      - REDIS_URL=redis://redis:6379
+    volumes:
+      - ./api:/usr/src/app
+      - ./api/node_modules:/usr/src/app/node_modules
+    ports:
+      - "8100:8100"
+    depends_on:
+      - "redis"
+
+  front:
+    build: ./front
+    hostname: front
+    container_name: front
+    environment:
+      - REDIS_URL=redis://redis:6379
+    volumes:
+      - ./front:/usr/src/app
+      - ./front/node_modules:/usr/src/app/node_modules
+    ports:
+      - "80:80"
+    depends_on:
+      - "api"

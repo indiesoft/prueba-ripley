@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "prueba-ripley",
+  "private_key_id": "480c03194a64822f07d8279516b17261a5b13110",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCwHNGG/l6B4P3l\n9e91cF4e966pnLFV637ZhUxsywR07Py0VVuDHahDL/HKh6npA65qKIDyGCEQbyup\nllGPPauugx1XvqzzLx5rZ/hsturHfEU6vKZUhIeeIR4zsItKD5OxsMmGYYaiPGw7\nDDhKsH37zYsWkw3DuQ6KSjTTUdh9uQQujLa/+Z2Pxst3DhMNuuI98z0XGtK6rGFw\nuRe762k3zd3UtFKxV5Dz2holiAEQcmwaG1MsgjuGVHtbXepKR68o4IUJlU7GvaeN\nnLCIbuiW3jaqLC/gRPJTs2ZKt5dbCKe2EynZN3xU8A2PpKj6ikcDyK29/5lqhjz9\nroJ2pDJJAgMBAAECggEABI2yMzHXgrctCWma9+fgXx+bUgJdqXGN1ZT3PWbgZh+M\nhyMf2xuEsrwGHez1DTPNqiwC7X+HN1QQhnF/CVuYWUpFk3O4KA+DU1acWz89gcvq\nRFMFX/EPSpzjmYWKjG8rq+/8ve8+mmpCiCJQQEog78ZIPtytge6CfDvf8sjOdq2r\ndWdb9MYeQTUiGx/7TlOkh+joNg6KnBs76ekqItIESL4Wj1O/NAc+gYETe2J0y61O\nQTZ7Rkbl7mbBRU2Pgdur4YFF24G2nnYL9gplTwEij/K8yu2+BQ06iEd08/SHs05A\nL6YJLKq3zgSrgxhrI1BAfYNHfOo1HwlM01T1iwHqIwKBgQDlLej2vptTZCZwGv7a\nszH4BhWDArUXAGgl4ywoV4mYYy3B90XTu35lnofIXi/mlFN9/ROcGf3yqRLqFt2X\n45Ai0krk9iSwBrslu/byIjleDnGArZK0tEnt3JZ3fuLXZvBiDLb8cygTqEgX728L\n80wAaZoaVwlZ6mFpQPbveuPUlwKBgQDEuQ6B0SnclyJ2XQc5NqlrAOIqVdni6OW7\nHZczh7YGf9CiaW8FJpQfNaiWJaAj1Nz+zfstekfShpXXqSTfmFGcU2N9DzL2MoBK\nXEg/9n8HsAl+ECiiaExcFro+lAK6sMwhaxUyp97Xh361+3huAh+Prv1mbW2+mFP7\n51p0PoisHwKBgBKWFZWlQa2SqrdeyRpte/j0bVwxpQQXiVrBQLyI1OTh7j0T07rn\nMsoFAFgUo2fc0aSfGK8JQJokch8/+Xqu/uqECYTmHXWVJipaQx3B/ssM+tGHwiUb\nlf9Pa3iHdtgnRgl9pH12zWJCvI4MYgIjGh/ScKgANQbwxjOmDCDB46ZDAoGBAJ7p\n0vNBUOy2VguBmM05/9/Fhe2nDm0DsFjYTYU98ugLJjGctCdYA722bepkmJl5YdCf\n+nDBX/WL7M2bAINzGzIKFss2lPdW0lW/eEnbSMCgDvr7+KdBU7XsUiUtEYtYOH4i\nb6xM+XHoLY66ho1vP6mlNWQhr86QZP+P430V6vgHAoGBAMmTDhrUMu7ILeeikod5\noXxms3YEZ6gSXoJalicgUZuE1gZdI3c8IMRWCfL0YSoL0EYZeD5vAlAC/Nq0i2P+\nS1MFpoGTm91a1K9WkTdFIQejlGNUw+HCwGm8D7p1mZMzPkYlB5IOCE3BiVAapdav\n601uUl4xsvwtNUS0sC3OU1QJ\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-y6x6x@prueba-ripley.iam.gserviceaccount.com",
+  "client_id": "114905389341938430264",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-y6x6x%40prueba-ripley.iam.gserviceaccount.com"
+}
