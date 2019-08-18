@@ -1,13 +1,11 @@
 #Requerimientos
-- Docker version 19.03.1 o posterior
-- angular/cli
+Docker version 19.03.1 o posterior
 
 
 #Despliegue
-- Instalar Angular Cli.
-   - npm install -g @angular/cli
 - Descarga repositorio desde https://github.com/indiesoft/prueba-ripley
 - Ingresar a la raiz del repositorio, luego ejecutar los comandos:
    - docker-compose build
-   - docker-compose up
-- Luego ingresar al directorio fron 
+   - docker-compose up -d
+
+Se puede ver el projecto funcionando en el siguiente enlase http://104.248.220.164/
