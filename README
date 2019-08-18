@@ -8,4 +8,4 @@ Docker version 19.03.1 o posterior
    - docker-compose build
    - docker-compose up -d
 
-Se puede ver el projecto funcionando en el siguiente enlase http://104.248.220.164/
+Para ver el projecto en funcionamiento, ingresar al siguiente link http://104.248.220.164/
