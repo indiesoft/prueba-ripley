@@ -1,6 +1,9 @@
 ## Requerimientos
 * Docker version 19.03.1 o posterior
 
+## Estructura
+* api - contiene proyecto backend creado con node 8 y framework express
+* front - contiene proyecto Angular 7
 
 ## Despliegue
 * Ingresar a la raiz del repositorio, luego ejecutar los comandos:
