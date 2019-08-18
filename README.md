@@ -6,8 +6,9 @@
 * front - contiene proyecto Angular 7
 
 ## Despliegue
-* Ingresar a la raiz del repositorio, luego ejecutar los comandos:
+* El proyecto fue construido para su despliegue en contenedores docker, por lo que al ejecutar los siguiente compandos se desplegara un contenedor para Redis, Api y el front:
    - docker-compose build
    - docker-compose up -d
+
 
 Para ver el projecto en funcionamiento, ingresar al siguiente link http://104.248.220.164/
