@@ -10,9 +10,9 @@
   "author": "Luis Cerro",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.18.3",
+    "body-parser": "^1.20.1",
     "boom": "^7.3.0",
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "firebase-admin": "^8.3.0",
     "node-fetch": "^2.6.0",
     "redis": "^2.8.0"
